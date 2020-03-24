@@ -7,12 +7,16 @@ import { PortfolioService } from '../../service/portfolio.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  public banners = [];
+  public banners = []; slides = [];
+  private projects: any = '/assets/data/projects.json';
   private url: any = '/assets/data/banners.json';
   constructor(private service: PortfolioService) { }
 
   ngOnInit() {
     this.service.get(this.url)
     .subscribe(data => this.banners = data);
+
+    this.service.get(this.projects)
+    .subscribe(data => this.slides = data);
   }
 }

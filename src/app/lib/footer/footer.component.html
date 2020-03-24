@@ -1,1 +1,21 @@
-<p>footer works!</p>
+<footer>
+  <div class="footer-links">
+    <div class="logo"><a [routerLink]="'/'"><img src="././assets/images/logo-light-small.png"></a></div>
+    <div class="top-footer">
+      <ul>
+        <li><mat-icon>email</mat-icon> <a href="mailto: darwinjadevillandonato@gmail.com" rel="noreferrer">darwinjadevillandonato@gmail.com</a></li>
+        <li><mat-icon>phone</mat-icon> <label>(+639) 61 267 7330</label></li>
+      </ul>
+    </div>
+    <div class="mid-footer">
+      <a mat-button [routerLink]="'/projects'" routerLinkActive="selected">Projects</a>
+      <a mat-button [routerLink]="'/designs'" routerLinkActive="selected">Designs</a>
+      <a mat-button [routerLink]="'/cv'" routerLinkActive="selected">Curriculum Vitae</a>
+    </div>
+    <div class="bot-footer">
+      <a mat-button href="https://facebook.com/edajniwrad" rel="noreferrer">Facebook</a>
+      <a mat-button href="https://www.linkedin.com/in/darwinjade/" rel="noreferrer">Linkedin</a>
+    </div>
+  </div>
+  <p>Site Design / Logo © 2020 Darwin Jade Villan Donato</p>
+</footer>
