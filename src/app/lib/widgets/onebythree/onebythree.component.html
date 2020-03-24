@@ -1,0 +1,18 @@
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+  <div ngxSlickItem class="onebythree-card text-left slide {{ slide.type }}" *ngFor="let slide of slides">
+    <div class="card">
+      <div class="top">
+        <img (click)="onSelect(slide)" src="{{ slide.img }}" alt="{{ slide.title }}">
+      </div>
+      <div class="bottom">
+        <h3>{{ slide.title }}</h3>
+        <p>{{ (slide.content.length > 100) ? (slide.content | slice:0:100) + '...' : slide.content }}
+        </p>
+        <div class="buttons" *ngIf="slide.buttons.length > 0">
+          <a (click)="onSelect(slide)" class="btn btn-primary btn-medium mat-flat-button mat-button-base">View more</a>
+          <a *ngFor="let button of slide.buttons" class="btn btn-{{ button.buttonstyle }} mat-flat-button mat-button-base" href="{{ button.buttonlink }}">{{ button.buttontext }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</ngx-slick-carousel>

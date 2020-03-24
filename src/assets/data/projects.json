@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "featured": true,
+    "img": "././assets/images/banners/banner01-min.jpg",
+    "title": "Project Title # 1",
+    "subtitle": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }],
+    "textalign": null,
+    "type": "project",
+    "technology": [{
+      "techText": "Javascript",
+      "techCategory": 1
+    }, {
+      "techText": "Angular 8",
+      "techCategory": 2
+    }],
+    "cms": "Joomla",
+    "company": "Company # 1",
+    "url": "https://www.google.com/",
+    "baseUrl": "/projects",
+    "startDate": "January 2020",
+    "endDate": "Present",
+    "jobPosition": "Front-end Web Developer",
+    "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt."
+  }, {
+    "id": 2,
+    "featured": true,
+    "img": "././assets/images/banners/banner02-min.jpg",
+    "title": "Project Title # 2",
+    "subtitle": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }],
+    "textalign": null,
+    "type": "project",
+    "technology": [{
+      "techText": "Javascript",
+      "techCategory": 1
+    }],
+    "cms": "Joomla",
+    "company": "Company # 2",
+    "url": "https://www.google.com/",
+    "baseUrl": "/projects",
+    "startDate": "January 2020",
+    "endDate": "Present",
+    "jobPosition": "Front-end Web Developer",
+    "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt."
+  }, {
+    "id": 3,
+    "featured": true,
+    "img": "././assets/images/banners/banner03-min.jpg",
+    "title": "Project Title # 3",
+    "subtitle": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }],
+    "textalign": null,
+    "type": "project",
+    "technology": [{
+      "techText": "Javascript",
+      "techCategory": 1
+    }],
+    "cms": "Joomla",
+    "company": "Company # 3",
+    "url": "https://www.google.com/",
+    "baseUrl": "/projects",
+    "startDate": "January 2020",
+    "endDate": "Present",
+    "jobPosition": "Front-end Web Developer",
+    "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt."
+  }, {
+    "id": 4,
+    "featured": true,
+    "img": "././assets/images/banners/banner01-min.jpg",
+    "title": "Project Title # 4",
+    "subtitle": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }],
+    "textalign": null,
+    "type": "project",
+    "technology": [{
+      "techText": "Javascript",
+      "techCategory": 1
+    }, {
+      "techText": "Angular 8",
+      "techCategory": 2
+    }],
+    "cms": "Joomla",
+    "company": "Company # 4",
+    "url": "https://www.google.com/",
+    "baseUrl": "/projects",
+    "startDate": "January 2020",
+    "endDate": "Present",
+    "jobPosition": "Front-end Web Developer",
+    "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt."
+  }, {
+    "id": 5,
+    "featured": true,
+    "img": "././assets/images/banners/banner02-min.jpg",
+    "title": "Project Title # 5",
+    "subtitle": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }],
+    "textalign": null,
+    "type": "project",
+    "technology": [{
+      "techText": "Javascript",
+      "techCategory": 1
+    }],
+    "cms": "Joomla",
+    "company": "Company # 5",
+    "url": "https://www.google.com/",
+    "baseUrl": "/projects",
+    "startDate": "January 2020",
+    "endDate": "Present",
+    "jobPosition": "Front-end Web Developer",
+    "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt."
+  }, {
+    "id": 6,
+    "featured": true,
+    "img": "././assets/images/banners/banner03-min.jpg",
+    "title": "Project Title # 6",
+    "subtitle": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }],
+    "textalign": null,
+    "type": "project",
+    "technology": [{
+      "techText": "Javascript",
+      "techCategory": 1
+    }],
+    "cms": "Joomla",
+    "company": "Company # 6",
+    "url": "https://www.google.com/",
+    "baseUrl": "/projects",
+    "startDate": "January 2020",
+    "endDate": "Present",
+    "jobPosition": "Front-end Web Developer",
+    "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt."
+  }
+]

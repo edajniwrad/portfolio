@@ -1,0 +1,328 @@
+// $primary: #303030;
+$primary: #248ad2;
+$secondary: #303030;
+$muted: #ebebeb;
+$darkgrey: #a4a4a4;
+
+@function text-color($color) {
+  @if (lightness($color) > 60) {
+    @return #303030;
+  } @else {
+    @return #ffffff;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Baloo+2:400,500,600,700,800|Liu+Jian+Mao+Cao&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Baloo 2', cursive;
+}
+
+.heading {
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
+
+  label {
+    color: $primary;
+  }
+}
+
+.sub-heading {
+  font-family: 'Baloo 2', cursive;
+  font-weight: normal;
+  margin: 0px 0px 30px 0px;
+}
+
+.handwritten {
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+.slick-slide {
+  outline: none
+}
+
+.buttons {
+  & > .btn:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+
+  &-primary {
+    background: $primary;
+    color: text-color($primary);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &-secondary {
+    background: $secondary;
+    color: text-color($secondary);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &-muted {
+    background: $muted;
+    color: text-color($muted);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &-small {
+    text-decoration: none;
+  }
+
+  &-medium {
+    text-decoration: none;
+  }
+
+  &-large {
+    text-decoration: none;
+  }
+
+  &:hover {
+    opacity: .9;
+  }
+}
+
+.grid-three {
+  width: 100%;
+
+  & > div {
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+
+    &:nth-child(3n) {
+      // some styles
+    }
+  }
+}
+
+.grid-four {
+  width: 100%;
+
+  & > div {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+
+    &:nth-child(3n) {
+      // some styles
+    }
+  }
+
+  .btn {
+    font-size: 12px;
+    min-width: 10px !important;
+    padding: 5px !important;
+    line-height: 18px !important;
+  }
+}
+
+.slide {
+  box-sizing: border-box;
+
+  .pattern {
+    background-image: url("./assets/images/pattern.png");
+    background-repeat: repeat;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+  }
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    z-index: 4;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .banner-title {
+      margin: 0px !important;
+      font-size: 5em;
+    }
+
+    .banner-content {
+        margin-top: 0;
+    }
+  }
+}
+
+.card {
+  padding: 10px;
+  box-sizing: border-box;
+
+  .top {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  }
+
+  .bottom {
+    position: relative;
+    padding: 10px;
+    background: #ffffff;
+
+    h3 {
+      margin-top: 10px;
+    }
+  }
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.main-header {
+  height: auto !important;
+  background: $primary;
+  color: text-color($primary);
+  transition: transform 0.3s;
+  z-index: 998;
+
+  .logo img {
+      margin-top: 10px;
+      width: 90px;
+  }
+
+  .sub-navigation {
+      height: 25px;
+      font-size: 8px;
+      font-weight: normal;
+      color: $darkgrey;
+      background: $muted;
+      border-bottom: solid 1px lightgrey;
+  }
+
+  .navigation-items {
+    text-align: right;
+    width: 100%;
+  }
+}
+
+// Loader
+.loader {
+  background: $primary;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+
+  &-content {
+    position: relative;
+    height: 100%;
+  }
+
+  .logo {
+    img {
+      max-width: 200px;
+      width: 100%;
+    }
+  }
+}
+
+.text {
+  &-center {
+    text-align: center;
+  }
+
+  &-left {
+      text-align: left;
+  }
+
+  &-right {
+      text-align: right;
+  }
+}
+
+.section {
+  display: block;
+  box-sizing: border-box;
+  height: auto;
+
+  &.small {
+    padding: 10px 0px;
+  }
+
+  &.medium {
+      padding: 30px 0px;
+  }
+
+  &.large {
+      padding: 60px 0px;
+  }
+
+  .content {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    &.width-fullscreen {
+      max-width: none;
+    }
+
+    &.width-small {
+      max-width: 800px;
+    }
+  }
+
+  // primary
+  &.primary {
+    background-color: $primary;
+    color: text-color($primary);
+  }
+
+  &.secondary {
+    background-color: $secondary;
+    color: text-color($secondary);
+  }
+
+  &.muted {
+    background-color: $muted;
+    color: text-color($muted);
+  }
+}
+
+.pc-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .pc-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .main-header {
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+  }
+}

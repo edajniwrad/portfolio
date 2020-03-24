@@ -1,0 +1,17 @@
+<mat-toolbar class="main-header color-block">
+  <mat-toolbar-row class="navigation">
+    <!-- <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button> -->
+    <div class="logo"><a [routerLink]="'/'"><img src="././assets/images/logo-light-small.png"></a></div>
+    <span class="menu-spacer"></span>
+    <div class="pc-only navigation-items">
+      <a mat-button [routerLink]="'/projects'" routerLinkActive="selected">Projects</a>
+      <a mat-button [routerLink]="'/contacts'" routerLinkActive="selected">Contact</a>
+    </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row class="sub-navigation">
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.</span>
+  </mat-toolbar-row>
+</mat-toolbar>
