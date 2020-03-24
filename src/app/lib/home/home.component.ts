@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { PortfolioService } from '../../service/portfolio.service';
 
 @Component({
   selector: 'app-home',
@@ -6,67 +7,12 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  public randomItem; id;
-
-  skills = [{
-    text: 'ANGULAR',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'REACT',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'VUE JS',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'HTML',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'CSS',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'SCSS',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'LESS',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'NODE JS',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'PHP',
-    subtext: '',
-    class: ''
-  }, {
-    text: 'Front-end Developer',
-    subtext: '',
-    class: ''
-  }];
-
-  battleInit() {
-    this.randomItem = this.skills[Math.floor(Math.random() * this.skills.length)];
-  }
-
-  constructor() { }
+  public banners = [];
+  private url: any = '/assets/data/banners.json';
+  constructor(private service: PortfolioService) { }
 
   ngOnInit() {
-    this.battleInit();
-    this.id = setInterval(() => {
-      this.battleInit();
-    }, 5000);
+    this.service.get(this.url)
+    .subscribe(data => this.banners = data);
   }
-
-  OnDestroy() {
-    if (this.id) {
-      clearInterval(this.id);
-    }
-  }
-
 }

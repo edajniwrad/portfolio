@@ -1,17 +1,17 @@
-<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
-  <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-    <div class="slide {{ slide.type }} banner-slide">
-      <div class="content flex flex-middle" [ngClass]="{'flex-left text-left': slide.textalign==='left', 'flex-center text-center': slide.textalign==='center' }">
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="bannerConfig">
+  <div ngxSlickItem *ngFor="let banner of banners" class="slide">
+    <div class="slide {{ banner.type }} banner-slide">
+      <div class="content flex flex-middle flex-center text-center">
         <div class="">
-            <h1 class="banner-title heading">{{ slide.title }}</h1>
-            <p class="banner-content">{{ slide.content }}</p>
-            <div class="buttons" *ngIf="slide.buttons.length > 0">
-              <a *ngFor="let button of slide.buttons" class="btn btn-{{ button.buttonstyle }}" href="{{ button.buttonlink }}">{{ button.buttontext }}</a>
+            <h1 class="banner-title heading">{{ banner.title }}</h1>
+            <p class="banner-content">{{ banner.content }}</p>
+            <div class="buttons banner-buttons" *ngIf="banner.buttons.length > 0">
+              <a *ngFor="let button of banner.buttons" class="btn btn-{{ button.buttonstyle }}" href="{{ button.buttonlink }}">{{ button.buttontext }}</a>
             </div>
         </div>
       </div>
       <div class="pattern"></div>
-      <img src="{{ slide.img }}" alt="{{ slide.title }}" width="100%">
+      <img src="{{ banner.img }}" alt="{{ banner.title }}" width="100%">
     </div>
   </div>
 </ngx-slick-carousel>

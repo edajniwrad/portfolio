@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, ParamMap } from '@angular/router';
-import { ProjectsService } from './../../service/projects.service';
+import { PortfolioService } from '../../service/portfolio.service';
 
 @Component({
   selector: 'app-project-detail',
@@ -9,7 +9,8 @@ import { ProjectsService } from './../../service/projects.service';
 })
 export class ProjectDetailComponent implements OnInit {
   public currentId; slide;
-  constructor(private projectService: ProjectsService, private router: Router, private route: ActivatedRoute) { }
+  private url: any = '/assets/data/projects.json';
+  constructor(private service: PortfolioService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
     // const id = parseInt(this.route.snapshot.paramMap.get('id'), 10);
@@ -19,7 +20,7 @@ export class ProjectDetailComponent implements OnInit {
       this.currentId = id;
     });
 
-    this.projectService.getProjectList()
+    this.service.get(this.url)
     .subscribe(data => this.slide = data.filter(item => item.id === this.currentId));
   }
 

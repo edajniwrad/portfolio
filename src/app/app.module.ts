@@ -1,6 +1,6 @@
 import { componentAssets } from './app-component.module';
 import { materialAssets } from './app-material.module';
-import { ProjectsService } from './service/projects.service';
+import { PortfolioService } from './service/portfolio.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -21,7 +21,7 @@ import { AppComponent } from './app.component';
     materialAssets,
     SlickCarouselModule
   ],
-  providers: [ ProjectsService ],
+  providers: [ PortfolioService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

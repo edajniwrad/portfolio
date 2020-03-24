@@ -1,4 +1,4 @@
-import { ProjectsService } from './../../service/projects.service';
+import { PortfolioService } from '../../service/portfolio.service';
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
@@ -9,10 +9,11 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class ProjectsComponent implements OnInit {
   public slides = [];
-  constructor(private projectService: ProjectsService, private router: Router, private route: ActivatedRoute) { }
+  private url: any = '/assets/data/projects.json';
+  constructor(private service: PortfolioService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.projectService.getProjectList()
+    this.service.get(this.url)
     .subscribe(data => this.slides = data);
   }
 }

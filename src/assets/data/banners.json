@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "featured": true,
+    "img": "././assets/images/banners/banner01-min.jpg",
+    "title": "Hi, I am Darwin Jade",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }]
+  }, {
+    "id": 2,
+    "featured": true,
+    "img": "././assets/images/banners/banner02-min.jpg",
+    "title": "My friends call me Ayuk",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }]
+  }, {
+    "id": 3,
+    "featured": true,
+    "img": "././assets/images/banners/banner03-min.jpg",
+    "title": "I'm a UI/UX Designer",
+    "content": "with passion for designing beautiful, sophisticated and functional UI.",
+    "buttons": [{
+      "buttontext": "View my works",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }]
+  }, {
+    "id": 4,
+    "featured": true,
+    "img": "././assets/images/banners/banner01-min.jpg",
+    "title": "I'm also a Front-end Web Developer",
+    "content": "who focuses on writting clean, ellegant and efficient.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }]
+  }, {
+    "id": 5,
+    "featured": true,
+    "img": "././assets/images/banners/banner02-min.jpg",
+    "title": "Over 5 years of experience in web",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "Visit Site",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Share",
+      "buttonlink": "#",
+      "buttonstyle": "muted"
+    }]
+  }, {
+    "id": 6,
+    "featured": true,
+    "img": "././assets/images/banners/banner03-min.jpg",
+    "title": "Connect with me! :)",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "buttons": [{
+      "buttontext": "View Projects",
+      "buttonlink": "#",
+      "buttonstyle": "primary"
+    }, {
+      "buttontext": "Facebook",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }, {
+      "buttontext": "Linked in",
+      "buttonlink": "#",
+      "buttonstyle": "secondary"
+    }]
+  }
+]
