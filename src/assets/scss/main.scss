@@ -1,14 +1,14 @@
 // $primary: #303030;
-$primary: #248ad2 !important;
-$secondary: #303030 !important;
+$primary: #248ad2;
+$secondary: #303030;
 $muted: #ebebeb;
 $darkgrey: #a4a4a4;
 
 @function text-color($color) {
   @if (lightness($color) > 60) {
-    @return #303030 !important;
+    @return #303030;
   } @else {
-    @return #ffffff !important;
+    @return #ffffff;
   }
 }
 
@@ -24,7 +24,7 @@ body {
   font-weight: normal;
 
   label {
-    color: $primary;
+    color: $primary !important;
   }
 }
 
@@ -54,22 +54,22 @@ body {
   border-radius: 2px;
 
   &-primary {
-    background: $primary;
-    color: text-color($primary);
+    background: $primary !important;
+    color: text-color($primary) !important;
     text-decoration: none;
     text-transform: uppercase;
   }
 
   &-secondary {
-    background: $secondary;
-    color: text-color($secondary);
+    background: $secondary !important;
+    color: text-color($secondary) !important;
     text-decoration: none;
     text-transform: uppercase;
   }
 
   &-muted {
-    background: $muted;
-    color: text-color($muted);
+    background: $muted !important;
+    color: text-color($muted) !important;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -192,8 +192,8 @@ body {
 
 .main-header {
   height: auto !important;
-  background: $primary;
-  color: text-color($primary);
+  background: $primary !important;
+  color: text-color($primary) !important;
   transition: transform 0.3s;
   z-index: 998;
 
@@ -207,7 +207,7 @@ body {
       font-size: 8px;
       font-weight: normal;
       color: $darkgrey;
-      background: $muted;
+      background: $muted !important;
       border-bottom: solid 1px lightgrey;
   }
 
@@ -219,7 +219,7 @@ body {
 
 // Loader
 .loader {
-  background: $primary;
+  background: $primary !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -287,18 +287,18 @@ body {
 
   // primary
   &.primary {
-    background-color: $primary;
-    color: text-color($primary);
+    background-color: $primary !important;
+    color: text-color($primary) !important;
   }
 
   &.secondary {
-    background-color: $secondary;
-    color: text-color($secondary);
+    background-color: $secondary !important;
+    color: text-color($secondary) !important;
   }
 
   &.muted {
-    background-color: $muted;
-    color: text-color($muted);
+    background-color: $muted !important;
+    color: text-color($muted) !important;
   }
 }
 
