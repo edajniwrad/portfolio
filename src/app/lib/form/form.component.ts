@@ -6,7 +6,7 @@ import { PortfolioService } from './../../service/portfolio.service';
   templateUrl: './form.component.html'
 })
 export class FormComponent implements OnInit {
-  public cvdetails = [];
+  public cvdetails = {};
   private url: any = '/assets/data/profile.json';
 
   constructor(private service: PortfolioService) { }
