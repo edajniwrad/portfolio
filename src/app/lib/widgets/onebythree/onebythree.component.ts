@@ -3,8 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-onebythree',
-  templateUrl: './onebythree.component.html',
-  styleUrls: ['./onebythree.component.scss']
+  templateUrl: './onebythree.component.html'
 })
 export class OnebythreeComponent implements OnInit {
   @Input() slides;

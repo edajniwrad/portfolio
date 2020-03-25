@@ -3,8 +3,7 @@ import { Component, OnInit, AfterViewInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
-  templateUrl: './navigation.component.html',
-  styleUrls: ['./navigation.component.scss']
+  templateUrl: './navigation.component.html'
 })
 export class NavigationComponent implements OnInit {
   // (scroll)="onWindowScroll($event);"

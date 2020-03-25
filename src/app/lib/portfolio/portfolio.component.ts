@@ -5,8 +5,7 @@ import {MatDialog, MatDialogConfig } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+  templateUrl: './portfolio.component.html'
 })
 export class PortfolioComponent implements OnInit {
   public portfolios = [];
