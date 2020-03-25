@@ -1,34 +1,21 @@
-import { Component, OnInit, Input, Output, OnChanges, EventEmitter } from '@angular/core';
-import { trigger, state, style, animate, transition } from '@angular/animations';
+import { PortfolioComponent } from './../portfolio/portfolio.component';
+import { Component, OnInit, Inject } from '@angular/core';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-image',
   templateUrl: './image.component.html',
-  styleUrls: ['./image.component.scss'],
-  animations: [
-    trigger('dialog', [
-      transition('void => *', [
-        style({ transform: 'scale3d(.3, .3, .3)' }),
-        animate(100)
-      ]),
-      transition('* => void', [
-        animate(100, style({ transform: 'scale3d(.0, .0, .0)' }))
-      ])
-    ])
-  ]
+  styleUrls: ['./image.component.scss']
 })
 export class ImageComponent implements OnInit {
-  @Input() closable = true;
-  @Input() visible: boolean;
-  @Output() visibleChange: EventEmitter<boolean> = new EventEmitter<boolean>();
-
-  constructor() { }
-
-  ngOnInit() { }
+  constructor(public dialogRef: MatDialogRef<PortfolioComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {}
 
   close() {
-    this.visible = false;
-    this.visibleChange.emit(this.visible);
+    this.dialogRef.close();
+  }
+
+  ngOnInit() {
+
   }
 }
 

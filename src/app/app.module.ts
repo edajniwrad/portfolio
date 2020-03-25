@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -19,8 +20,11 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     HttpClientModule,
     materialAssets,
-    SlickCarouselModule
+    SlickCarouselModule,
+    MatDialogModule
   ],
+  exports: [ MatDialogModule ],
+  entryComponents: [ componentAssets ],
   providers: [ PortfolioService ],
   bootstrap: [AppComponent]
 })
