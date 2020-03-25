@@ -6,9 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  @Input() slides;
+  @Input() banners;
 
-  slideConfig = {
+  bannerConfig = {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,

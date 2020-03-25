@@ -1,0 +1,15 @@
+<div class="section small">
+  <div class="content">
+    <h1 class="heading text-center">FEATURED <label>DESIGNS</label></h1>
+    <h5 class="sub-heading text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.</h5>
+
+    <div class="grid-three design">
+      <div *ngFor="let portfolio of portfolios">
+        <div>
+          <img src="{{ portfolio.image }}" alt="{{ portfolio.title }}" (click)="openDialog(portfolio)"/>
+          <h3 class="text-center">{{ portfolio.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

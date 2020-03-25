@@ -9,6 +9,9 @@ import { OnebythreeComponent } from './lib/widgets/onebythree/onebythree.compone
 import { GridThreeComponent } from './lib/widgets/grid-three/grid-three.component';
 import { GridFourComponent } from './lib/widgets/grid-four/grid-four.component';
 import { JobComponent } from './lib/job/job.component';
+import { CvComponent } from './lib/cv/cv.component';
+import { PortfolioComponent } from './lib/portfolio/portfolio.component';
+import { ImageComponent } from './lib/image/image.component';
 
 export const componentAssets = [
   NavigationComponent,
@@ -21,5 +24,8 @@ export const componentAssets = [
   HomeComponent,
   GridThreeComponent,
   GridFourComponent,
-  JobComponent
+  JobComponent,
+  CvComponent,
+  PortfolioComponent,
+  ImageComponent
 ];

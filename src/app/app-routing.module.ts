@@ -3,6 +3,7 @@ import { ProjectDetailComponent } from './lib/project-detail/project-detail.comp
 import { PageNotFoundComponent } from './lib/page-not-found/page-not-found.component';
 import { FormComponent } from './lib/form/form.component';
 import { ProjectsComponent } from './lib/projects/projects.component';
+import { PortfolioComponent } from './lib/portfolio/portfolio.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -20,7 +21,8 @@ const routes: Routes = [
     //   }
     // ]
   },
-  { path: 'contacts', component: FormComponent },
+  { path: 'cv', component: FormComponent },
+  { path: 'designs', component: PortfolioComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
