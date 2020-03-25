@@ -3,8 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-grid-three',
-  templateUrl: './grid-three.component.html',
-  styleUrls: ['./grid-three.component.scss']
+  templateUrl: './grid-three.component.html'
 })
 export class GridThreeComponent implements OnInit {
   @Input() slides;

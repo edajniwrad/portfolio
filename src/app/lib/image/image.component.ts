@@ -4,8 +4,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-image',
-  templateUrl: './image.component.html',
-  styleUrls: ['./image.component.scss']
+  templateUrl: './image.component.html'
 })
 export class ImageComponent implements OnInit {
   constructor(public dialogRef: MatDialogRef<PortfolioComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {}

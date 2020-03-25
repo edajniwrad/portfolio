@@ -3,8 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-grid-four',
-  templateUrl: './grid-four.component.html',
-  styleUrls: ['./grid-four.component.scss']
+  templateUrl: './grid-four.component.html'
 })
 export class GridFourComponent implements OnInit {
 

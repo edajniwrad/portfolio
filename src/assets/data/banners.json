@@ -24,7 +24,7 @@
     "content": "with passion for designing beautiful, sophisticated and functional UI.",
     "buttons": [{
       "buttontext": "View my works",
-      "buttonlink": "/portfolio",
+      "buttonlink": "portfolio",
       "buttonstyle": "primary",
       "buttontyoe": "insite"
     }]
@@ -37,7 +37,7 @@
     "content": "who focuses on writting clean, ellegant and efficient.",
     "buttons": [{
       "buttontext": "View projects",
-      "buttonlink": "/projects",
+      "buttonlink": "projects",
       "buttonstyle": "primary",
       "buttontyoe": "insite"
     }]

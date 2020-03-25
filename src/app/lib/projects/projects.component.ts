@@ -4,8 +4,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+  templateUrl: './projects.component.html'
 })
 export class ProjectsComponent implements OnInit {
   public slides = [];

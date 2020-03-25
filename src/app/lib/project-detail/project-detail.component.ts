@@ -4,11 +4,10 @@ import { PortfolioService } from '../../service/portfolio.service';
 
 @Component({
   selector: 'app-project-detail',
-  templateUrl: './project-detail.component.html',
-  styleUrls: ['./project-detail.component.scss']
+  templateUrl: './project-detail.component.html'
 })
 export class ProjectDetailComponent implements OnInit {
-  public currentId; slide;
+  public currentId; details;
   private url: any = '/assets/data/projects.json';
   constructor(private service: PortfolioService, private router: Router, private route: ActivatedRoute) { }
 
@@ -21,7 +20,7 @@ export class ProjectDetailComponent implements OnInit {
     });
 
     this.service.get(this.url)
-    .subscribe(data => this.slide = data.filter(item => item.id === this.currentId));
+    .subscribe(data => this.details = data.filter(item => item.id === this.currentId)[0]);
   }
 
   // goPrevious() {

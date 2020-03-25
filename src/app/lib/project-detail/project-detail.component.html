@@ -1,1 +1,36 @@
-{{ slide | json }}
+<div class="section small">
+  <div class="content">
+    <div class="project-details">
+      <div class="container">
+        <div class="image">
+          <img class="banner-content" src="{{ details.img }}" alt="{{ details.title }}">
+        </div>
+
+        <div class="content">
+          <h3>{{ details.title }}</h3>
+          <h4>{{ details.subtitle }}</h4>
+          <p>{{ details.content }}</p>
+          <label>Main details </label>
+          <ul>
+            <li *ngIf="details.company">Company: <em>{{ details.company }}</em></li>
+            <li *ngIf="details.jobPosition">Job Position: <em>{{ details.jobPosition }}</em></li>
+            <li *ngIf="details.startDate">Date: <em>{{ details.startDate }}</em> - <em *ngIf="details.startDate">{{ details.endDate }}</em></li>
+            <li *ngIf="details.jobDescription">Description: <em>{{ details.jobDescription }}</em></li>
+          </ul>
+
+          <label>Copyright Disclaimer </label>
+          <p>Disclaimer content</p>
+
+          <label>Technologies:</label>
+          <div class="tech-container">
+            <div class="detail-tech-btn detail-tech-btntech{{ tech.techCategory }}" *ngFor="let tech of details.technology">{{ tech.techText }}</div>
+          </div>
+          <div class="action">
+              <a class="detail-btn detail-btn-muted" href="#" rel="noreferrer">Go Back</a>
+              <a class="detail-btn detail-btn-primary" href="{{ details.url }}" rel="noreferrer">View Site</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

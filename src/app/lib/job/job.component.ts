@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-job',
-  templateUrl: './job.component.html',
-  styleUrls: ['./job.component.scss']
+  templateUrl: './job.component.html'
 })
 export class JobComponent implements OnInit {
 
