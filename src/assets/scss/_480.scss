@@ -1,0 +1,99 @@
+@media screen and (max-width: 480px) {
+  .pc-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+
+  .main-header {
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+  }
+
+  footer {
+    ul li {
+      display: block;
+      margin: 10px 10px !important;
+    }
+    .top-footer a {
+      color: #ffffff;
+      font-size: 4vw;
+    }
+  }
+
+  .slide {
+    .content {
+      .banner-content {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .dialog {
+    top: 10%;
+    width: 90vw;
+  }
+
+  .grid-three {
+    & > div {
+      width: 100% !important;
+    }
+  }
+
+  .grid-four {
+    & > div {
+      width: 100% !important;
+    }
+  }
+
+  .buttons {
+    .btn {
+      width: 100%;
+      margin: 5px 0px;
+    }
+
+    & > .btn:not(:first-child) {
+      margin-left: 0px;
+    }
+    &.banner-buttons {
+      margin-top: 0px;
+
+      .btn {
+        width: 25vw;
+        display: inline-block;
+        margin: 5px 5px !important;
+        font-size: 3.5vw;
+      }
+
+      & .btn:not(:nth-child(2)) {
+        margin-left: 5px !important;
+      }
+    }
+  }
+
+  .cv {
+    .avatar-image {
+      max-width: 150px;
+      max-height: 150px;
+      top: 60vw;
+    }
+    .action .detail-btn {
+      width: 100%;
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    .content {
+      text-align: center;
+    }
+
+    ul li em {
+      display: block;
+    }
+  }
+}

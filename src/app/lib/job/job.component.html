@@ -1,1 +1,15 @@
-<p>job works!</p>
+<div class="job-container" *ngFor="let detail of jobs">
+  <div class="job-details">
+    <h3>{{ detail.position }}</h3>
+    <h4>{{ detail.company }}</h4>
+    <p class="washed">Deployed at <b>{{ detail.deployed }}</b></p>
+    <p class="washed">{{ detail.startDate }} - {{ detail.endDate }}</p>
+    <br/><br/>
+    <label>Description:</label>
+    <p>{{ detail.description }}</p>
+    <label>Technologies:</label>
+    <div class="tech-container">
+      <div *ngFor="let button of detail.techs" class="detail-tech-btn detail-tech-btn{{ button.type }}">{{ button.title }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+@media (max-width: 780px) {
+	.dialog {
+		top: 40px;
+  }
+
+  .grid-three {
+    & > div {
+      width: 50%;
+    }
+  }
+
+  .grid-four {
+    & > div {
+      width: 50%;
+    }
+  }
+
+  .sub-navigation {
+    text-align: center;
+  }
+
+  .slide {
+    .content {
+      .banner-title {
+        font-size: 8vw;
+      }
+      .banner-content {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 80%;
+      }
+    }
+  }
+
+  .cv .avatar-image {
+    top: 57vw;
+  }
+}

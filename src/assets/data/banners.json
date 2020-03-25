@@ -3,23 +3,23 @@
     "id": 1,
     "featured": true,
     "img": "././assets/images/banners/banner01-min.jpg",
-    "imgmobile": "http://placeimg.com/420/600/any",
+    "imgmobile": "././assets/images/banners/banner01-mobile-min.jpg",
     "title": "Hi, I am Darwin Jade",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "content": "",
     "buttons": []
   }, {
     "id": 2,
     "featured": true,
     "img": "././assets/images/banners/banner02-min.jpg",
-    "imgmobile": "http://placeimg.com/420/600/any",
+    "imgmobile": "././assets/images/banners/banner02-mobile-min.jpg",
     "title": "My friends call me Ayuk",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "content": "",
     "buttons": []
   }, {
     "id": 3,
     "featured": true,
     "img": "././assets/images/banners/banner03-min.jpg",
-    "imgmobile": "http://placeimg.com/420/600/any",
+    "imgmobile": "././assets/images/banners/banner03-mobile-min.jpg",
     "title": "I'm a UI/UX Designer",
     "content": "with passion for designing beautiful, sophisticated and functional UI.",
     "buttons": [{
@@ -32,8 +32,8 @@
     "id": 4,
     "featured": true,
     "img": "././assets/images/banners/banner01-min.jpg",
-    "imgmobile": "http://placeimg.com/420/600/any",
-    "title": "I'm also a Front-end Web Developer",
+    "imgmobile": "././assets/images/banners/banner01-mobile-min.jpg",
+    "title": "A Front-end Web Developer",
     "content": "who focuses on writting clean, ellegant and efficient.",
     "buttons": [{
       "buttontext": "View projects",
@@ -45,17 +45,17 @@
     "id": 5,
     "featured": true,
     "img": "././assets/images/banners/banner02-min.jpg",
-    "imgmobile": "http://placeimg.com/420/600/any",
+    "imgmobile": "././assets/images/banners/banner02-mobile-min.jpg",
     "title": "Over 5 years of experience in web",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "content": "",
     "buttons": []
   }, {
     "id": 6,
     "featured": true,
     "img": "././assets/images/banners/banner03-min.jpg",
-    "imgmobile": "http://placeimg.com/420/600/any",
+    "imgmobile": "././assets/images/banners/banner03-mobile-min.jpg",
     "title": "Connect with me! :)",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis pellentesque tincidunt.",
+    "content": "",
     "buttons": [{
       "buttontext": "Facebook",
       "buttonlink": "https://facebook.com/edajniwrad",

@@ -1,0 +1,246 @@
+[
+  {
+    "id": 0,
+    "position": "Front-end Web Developer",
+    "company": "Vertere",
+    "deployed": "ABS-CBN",
+    "startDate": "January 2020",
+    "endDate": "Present",
+    "description": "no content yet",
+    "techs": [
+      {
+        "title" : "Angular 8",
+        "type" : "1"
+      }, {
+        "title" : "React JS",
+        "type" : "5"
+      }, {
+        "title" : "Vue JS",
+        "type" : "5"
+      }, {
+        "title" : "Node JS",
+        "type" : "4"
+      }, {
+        "title" : "Jira",
+        "type" : "3"
+      }, {
+        "title" : "HTML",
+        "type" : "2"
+      }, {
+        "title" : "SCSS",
+        "type" : "2"
+      }, {
+        "title" : "Javascript",
+        "type" : "1"
+      }, {
+        "title" : "Jquery",
+        "type" : "1"
+      }, {
+        "title" : "REST API",
+        "type" : "1"
+      }
+    ]
+  }, {
+    "id": 1,
+    "position": "Front-end Web Developer",
+    "company": "Emerio Philippines, Inc.",
+    "deployed": "AXA Philippines",
+    "startDate": "November 2018",
+    "endDate": "December 2019",
+    "description": "no content yet",
+    "techs": [
+      {
+        "title" : "Angular JS",
+        "type" : "1"
+      }, {
+        "title" : "Prismic CMS",
+        "type" : "5"
+      }, {
+        "title" : "Handlebar Templating Engine",
+        "type" : "5"
+      }, {
+        "title" : "Node JS",
+        "type" : "4"
+      }, {
+        "title" : "Sails JS",
+        "type" : "3"
+      }, {
+        "title" : "HTML",
+        "type" : "2"
+      }, {
+        "title" : "LESS/CSS",
+        "type" : "2"
+      }, {
+        "title" : "Javascript",
+        "type" : "1"
+      }, {
+        "title" : "Jquery",
+        "type" : "1"
+      }, {
+        "title" : "Bootstrap 3",
+        "type" : "3"
+      }, {
+        "title" : "REST API",
+        "type" : "1"
+      }, {
+        "title" : "Tag Commander",
+        "type" : "4"
+      }
+    ]
+  }, {
+    "id": 2,
+    "position": "Sr. Designer / UI Developer",
+    "company": "Goalfish Solutions",
+    "deployed": "Roojai Hong Kong",
+    "startDate": "April 2017",
+    "endDate": "September 2018",
+    "description": "no content yet",
+    "techs": [
+      {
+        "title" : "PHP Laravel",
+        "type" : "1"
+      }, {
+        "title" : "October CMS",
+        "type" : "5"
+      }, {
+        "title" : "Joomla CMS",
+        "type" : "5"
+      }, {
+        "title" : "HTML",
+        "type" : "2"
+      }, {
+        "title" : "CSS",
+        "type" : "2"
+      }, {
+        "title" : "UIKit 3",
+        "type" : "3"
+      }, {
+        "title" : "Bootstrap 3",
+        "type" : "3"
+      }, {
+        "title" : "Javascript",
+        "type" : "1"
+      }, {
+        "title" : "Jquery",
+        "type" : "1"
+      }, {
+        "title" : "Design Materials",
+        "type" : "4"
+      }, {
+        "title" : "Advertisments Material",
+        "type" : "3"
+      }
+    ]
+  }, {
+    "id": 3,
+    "position": "Lead Web Designer",
+    "company": "Leadya Services Inc.",
+    "deployed": null,
+    "startDate": "March 2016",
+    "endDate": "February 2017",
+    "description": "no content yet",
+    "techs": [
+      {
+        "title" : "PHP",
+        "type" : "1"
+      }, {
+        "title" : "Wordpress CMS",
+        "type" : "5"
+      }, {
+        "title" : "HTML",
+        "type" : "2"
+      }, {
+        "title" : "CSS",
+        "type" : "2"
+      }, {
+        "title" : "Bootstrap 3",
+        "type" : "3"
+      }, {
+        "title" : "Javascript",
+        "type" : "1"
+      }, {
+        "title" : "Jquery",
+        "type" : "1"
+      }, {
+        "title" : "UX Designs",
+        "type" : "4"
+      }, {
+        "title" : "Parallax Website",
+        "type" : "3"
+      }
+    ]
+  }, {
+    "id": 4,
+    "position": "Web Designer / Web Developer",
+    "company": "C3 Interactive Manila",
+    "deployed": null,
+    "startDate": "August 2015",
+    "endDate": "March 2016",
+    "description": "no content yet",
+    "techs": [
+      {
+        "title" : "Parallax Website",
+        "type" : "1"
+      }, {
+        "title" : "Custom CMS",
+        "type" : "5"
+      }, {
+        "title" : "HTML",
+        "type" : "2"
+      }, {
+        "title" : "LESS/CSS",
+        "type" : "2"
+      }, {
+        "title" : "Bootstrap 3",
+        "type" : "3"
+      }, {
+        "title" : "Javascript",
+        "type" : "1"
+      }, {
+        "title" : "Jquery",
+        "type" : "1"
+      }, {
+        "title" : "Design Materials",
+        "type" : "4"
+      }, {
+        "title" : "Advertisment Materials",
+        "type" : "3"
+      }
+    ]
+  }, {
+    "id": 5,
+    "position": "Web Designer",
+    "company": "Eastwest Technology Solutions",
+    "deployed": "Safety Services Company (US)",
+    "startDate": "March 2014",
+    "endDate": "June 2015",
+    "description": "no content yet",
+    "techs": [
+      {
+        "title" : "Smarty Templating Engine",
+        "type" : "1"
+      }, {
+        "title" : "Wordpress CMS",
+        "type" : "5"
+      }, {
+        "title" : "HTML",
+        "type" : "2"
+      }, {
+        "title" : "CSS",
+        "type" : "2"
+      }, {
+        "title" : "Javascript",
+        "type" : "1"
+      }, {
+        "title" : "Jquery",
+        "type" : "1"
+      }, {
+        "title" : "Design Materials",
+        "type" : "4"
+      }, {
+        "title" : "Advertisment Materials",
+        "type" : "3"
+      }
+    ]
+  }
+]
